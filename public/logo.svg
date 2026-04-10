@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="380" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#F5E49A"/>
+      <stop offset="42%"  stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8B6418"/>
+    </linearGradient>
+    <linearGradient id="gold-v" x1="0" y1="0" x2="0" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#F5E49A"/>
+      <stop offset="100%" stop-color="#8B6418"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ORBITAL ICON -->
+  <ellipse cx="45" cy="45" rx="42" ry="13"
+           transform="rotate(-20 45 45)"
+           stroke="url(#gold)" stroke-width="2.4" fill="none" opacity="0.38"/>
+
+  <circle cx="45" cy="45" r="28" fill="none"/>
+  <circle cx="45" cy="45" r="28" stroke="url(#gold)" stroke-width="2.6" fill="none"/>
+
+  <path d="M 84.5 28.5 A 42 13 -20 0 1 5.5 61.5"
+        stroke="url(#gold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- KOSMO TEXT -->
+  <text x="98" y="63"
+        font-family="Orbitron, 'Courier New', monospace"
+        font-weight="900"
+        font-size="44"
+        letter-spacing="4"
+        fill="url(#gold)">KOSMO</text>
+</svg>
