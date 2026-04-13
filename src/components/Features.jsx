@@ -1,6 +1,6 @@
 const features = [
   {
-    id: 'automatizacion',
+    id: 'consultas',
     icon: (
       <svg viewBox="0 0 48 48" className="w-10 h-10" fill="none">
         <circle cx="24" cy="24" r="20" stroke="#C9A227" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.4"/>
@@ -12,20 +12,20 @@ const features = [
       </svg>
     ),
     tag: 'Agentes IA',
-    title: 'Atención al Cliente sin Límites',
-    subtitle: 'Tu clínica nunca cierra',
+    title: 'Atención a Consultas sin Límites',
+    subtitle: 'Tu inmobiliaria nunca cierra',
     description:
-      'Desplegamos agentes de inteligencia artificial que responden consultas, gestionan citas, califican pacientes y resuelven dudas — los 365 días del año, las 24 horas del día, en múltiples canales simultáneamente.',
+      'Desplegamos agentes de inteligencia artificial que responden consultas sobre propiedades, horarios, precios y disponibilidad — los 365 días del año, las 24 horas del día, en múltiples canales simultáneamente.',
     bullets: [
       'Respuesta instantánea en WhatsApp, Instagram y web',
-      'Calificación automática de pacientes potenciales',
-      'Gestión de citas y recordatorios inteligentes',
-      'Escalada automática a humanos cuando es necesario',
+      'Información detallada de propiedades al instante',
+      'Derivación automática al asesor correcto',
+      'Escalada a humanos cuando la situación lo requiere',
     ],
     accentColor: 'from-gold-500/20 to-transparent',
   },
   {
-    id: 'gestion',
+    id: 'leads',
     icon: (
       <svg viewBox="0 0 48 48" className="w-10 h-10" fill="none">
         <rect x="6" y="10" width="36" height="28" rx="4" stroke="#C9A227" strokeWidth="1.5" opacity="0.5"/>
@@ -36,21 +36,21 @@ const features = [
         <path d="M33 24.5l1.5 1.5 2.5-2.5" stroke="#C9A227" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    tag: 'Páginas Web',
-    title: 'Sitios que Convierten Visitas en Pacientes',
-    subtitle: 'Tu mejor vendedor digital',
+    tag: 'Calificación de Leads',
+    title: 'Solo Habla con Quien Realmente Compra',
+    subtitle: 'Tu filtro inteligente de oportunidades',
     description:
-      'Diseñamos y desarrollamos páginas web de alto rendimiento, optimizadas para SEO local y convertir visitantes en pacientes. Cada elemento está pensado estratégicamente para persuadir, generar confianza y accionar.',
+      'Nuestros agentes califican automáticamente a cada interesado: presupuesto, zona, tipo de propiedad y urgencia. Tu equipo deja de perder tiempo y se enfoca en los leads que sí cierran.',
     bullets: [
-      'Diseño premium orientado a conversión',
-      'SEO local para aparecer en búsquedas de tu ciudad',
-      'Velocidad de carga optimizada (Core Web Vitals)',
-      'Integración directa con tus agentes IA y CRM',
+      'Preguntas de calificación automáticas por WhatsApp',
+      'Clasificación de compradores, vendedores e inversores',
+      'Score de cada lead según perfil y urgencia',
+      'Alertas en tiempo real para leads de alta prioridad',
     ],
     accentColor: 'from-blue-500/10 to-transparent',
   },
   {
-    id: 'orden',
+    id: 'visitas',
     icon: (
       <svg viewBox="0 0 48 48" className="w-10 h-10" fill="none">
         <path d="M8 12h32M8 20h24M8 28h28M8 36h20" stroke="#C9A227" strokeWidth="2" strokeLinecap="round" opacity="0.6"/>
@@ -58,16 +58,16 @@ const features = [
         <path d="M35.5 34l2 2 4-4" stroke="#C9A227" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    tag: 'CRM a Medida',
-    title: 'Control Total de tu Clínica en un Solo Panel',
-    subtitle: 'Orden que impulsa el crecimiento',
+    tag: 'Agendado de Visitas',
+    title: 'Visitas Agendadas sin Intervención Humana',
+    subtitle: 'Agenda llena, equipo libre',
     description:
-      'Construimos sistemas CRM diseñados exclusivamente para tu clínica dental. Historial de pacientes, seguimientos, recordatorios, métricas y reportes — todo centralizado, automatizado y listo para escalar.',
+      'El agente detecta el interés, verifica disponibilidad y confirma la visita directamente con el cliente — sin que ningún asesor tenga que intervenir. Recordatorios automáticos incluidos para reducir ausencias.',
     bullets: [
-      'Historial completo de cada paciente y tratamiento',
-      'Pipeline de seguimiento post-consulta automatizado',
-      'Reportes de rendimiento y métricas clave en tiempo real',
-      'Integración con agenda, facturación y comunicación',
+      'Agendado automático 24/7 desde WhatsApp e Instagram',
+      'Sincronización con la agenda del asesor en tiempo real',
+      'Recordatorios previos a la visita para reducir no-shows',
+      'Seguimiento post-visita automatizado para avanzar el cierre',
     ],
     accentColor: 'from-purple-500/10 to-transparent',
   },
@@ -83,12 +83,12 @@ export default function Features() {
             Nuestras soluciones
           </p>
           <h2 className="text-4xl sm:text-5xl font-black text-white leading-tight mb-5">
-            Todo lo que tu clínica necesita,{' '}
+            Todo lo que tu inmobiliaria necesita,{' '}
             <span className="text-gold-gradient">orbitando en perfecta sincronía</span>
           </h2>
           <p className="text-white/45 text-lg max-w-2xl mx-auto leading-relaxed">
             Tres soluciones de IA integradas que se complementan para transformar
-            completamente la operación y crecimiento de tu clínica dental.
+            completamente la operación y crecimiento de tu inmobiliaria.
           </p>
         </div>
 

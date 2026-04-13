@@ -22,13 +22,13 @@ export default function CTA() {
         <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
           ¿Listo para llevar tu{' '}
           <br className="hidden sm:block" />
-          clínica a{' '}
+          inmobiliaria a{' '}
           <span className="text-gold-gradient">otra dimensión?</span>
         </h2>
 
         {/* Sub-copy */}
         <p className="reveal reveal-delay-2 text-lg text-white/50 leading-relaxed max-w-2xl mx-auto mb-10">
-          Agenda hoy tu consultoría gratuita de 30 minutos. Analizamos tu clínica, identificamos las oportunidades
+          Agenda hoy tu consultoría gratuita de 30 minutos. Analizamos tu inmobiliaria, identificamos las oportunidades
           y te mostramos exactamente cómo KOSMO puede transformarla.{' '}
           <span className="text-white/70 font-medium">Sin presiones. Solo resultados.</span>
         </p>

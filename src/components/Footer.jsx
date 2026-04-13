@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <p className="text-white/35 text-sm leading-relaxed max-w-xs">
               Inteligencia artificial diseñada para transformar la gestión y crecimiento
-              de clínicas dentales en Latinoamérica.
+              de inmobiliarias en Argentina.
             </p>
           </div>
 
@@ -23,9 +23,9 @@ export default function Footer() {
             </h4>
             <ul className="flex flex-col gap-3">
               {[
-                'Agentes IA de Atención',
-                'Páginas Web que Convierten',
-                'CRM a Medida',
+                'Atención a Consultas 24/7',
+                'Calificación de Leads',
+                'Agendado de Visitas',
                 'Automatización de Procesos',
               ].map((item) => (
                 <li key={item}>
@@ -102,7 +102,7 @@ export default function Footer() {
             <svg className="w-3.5 h-3.5 text-gold-500/60" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"/>
             </svg>
-            <span>para el futuro de la odontología</span>
+            <span>para el futuro de las inmobiliarias</span>
           </div>
         </div>
       </div>

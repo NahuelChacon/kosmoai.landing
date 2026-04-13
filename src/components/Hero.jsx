@@ -27,23 +27,22 @@ export default function Hero() {
           {/* Badge */}
           <div className="hero-badge inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold-500/30 bg-gold-500/5 text-gold-400 text-xs font-semibold tracking-widest uppercase mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-            Inteligencia Artificial · Clínicas Dentales
+            Inteligencia Artificial · Inmobiliarias
           </div>
 
           {/* Headline */}
           <h1 className="hero-title text-5xl sm:text-6xl lg:text-7xl font-black leading-[1.07] tracking-tight text-white mb-6">
-            Tu Clínica{' '}
+            Tu Inmobiliaria,{' '}
             <br className="hidden sm:block" />
-            Dental,{' '}
             <span className="text-gold-gradient">En Otra Órbita</span>
           </h1>
 
           {/* Subheadline */}
           <p className="hero-subtitle text-lg sm:text-xl text-white/55 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10">
-            Automatizamos tu atención al cliente, creamos páginas web que convierten
-            y desarrollamos CRM a medida —{' '}
+            Captamos y calificamos leads automáticamente, agendamos visitas sin fricción
+            y atendemos consultas las 24 horas —{' '}
             <span className="text-white/80 font-medium">
-              todo con inteligencia artificial diseñada específicamente para odontología.
+              todo con inteligencia artificial diseñada específicamente para inmobiliarias.
             </span>
           </p>
 
@@ -79,7 +78,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm text-white/40">
-              <span className="text-white/70 font-semibold">+50 clínicas</span> ya transformadas
+              <span className="text-white/70 font-semibold">+10 inmobiliarias</span> ya transformadas
             </p>
           </div>
         </div>
@@ -129,7 +128,7 @@ export default function Hero() {
                 <div className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.8)]" />
                 <span className="text-xs font-semibold text-white/80">Agente IA activo</span>
               </div>
-              <p className="text-[11px] text-white/40 mt-0.5">Respondiendo 24/7</p>
+              <p className="text-[11px] text-white/40 mt-0.5">Calificando leads 24/7</p>
             </div>
 
             <div className="animate-float-delayed absolute -right-4 bottom-24 glass-card rounded-xl px-4 py-3 z-30">
@@ -139,7 +138,7 @@ export default function Hero() {
                 </svg>
                 <span className="text-xs font-semibold text-gold-400">+70% eficiencia</span>
               </div>
-              <p className="text-[11px] text-white/40">Admin automatizada</p>
+              <p className="text-[11px] text-white/40">Visitas agendadas solo</p>
             </div>
           </div>
         </div>

@@ -1,36 +1,36 @@
 const testimonials = [
   {
-    name: 'Dr. Alejandro Méndez',
-    role: 'Director Médico',
-    clinic: 'Clínica Dental Méndez & Asociados',
+    name: 'Martín Alderete',
+    role: 'Dueño & Director Comercial',
+    clinic: 'Alderete Propiedades',
     city: 'Buenos Aires',
-    avatar: 'AM',
+    avatar: 'MA',
     stars: 5,
     quote:
-      'Desde que implementamos los agentes IA de KOSMO, nuestra recepcionista virtual atiende más de 200 consultas diarias sin errores. Hemos recuperado 3 horas al día en gestión administrativa y la tasa de pacientes que vuelven subió un 28%. Definitivamente, nuestra clínica está en otra órbita.',
-    highlight: 'Recuperamos 3 horas al día en administración',
+      'Desde que implementamos KOSMO, el agente IA atiende más de 150 consultas diarias en WhatsApp sin que ningún asesor tenga que intervenir. Los leads que llegan a nuestro equipo ya están calificados y listos para avanzar. Recuperamos horas de trabajo y cerramos más operaciones.',
+    highlight: 'Leads calificados antes de llegar al asesor',
   },
   {
-    name: 'Dra. Valentina Rossi',
-    role: 'Dueña y Fundadora',
-    clinic: 'Sonrisas Perfectas Rossi',
-    city: 'Montevideo',
-    avatar: 'VR',
+    name: 'Luciana Ferreyra',
+    role: 'Fundadora & Gerente General',
+    clinic: 'Ferreyra Inmobiliaria',
+    city: 'Córdoba',
+    avatar: 'LF',
     stars: 5,
     quote:
-      'La página web que desarrollaron para mí me trajo un 40% más de consultas nuevas en el primer mes. Está optimizada para SEO local, carga rapidísimo y el diseño transmite exactamente la confianza y profesionalismo que quería proyectar. El CRM me permite hacer seguimiento de cada paciente de manera increíble.',
-    highlight: '+40% de consultas nuevas el primer mes',
+      'El agendado automático de visitas cambió todo. Antes perdíamos interesados porque no podíamos responder rápido. Hoy el sistema les confirma la visita en minutos, les manda recordatorio antes y cuando llegan ya saben qué esperar. La tasa de visitas concretadas subió notablemente.',
+    highlight: '+35% de visitas concretadas desde el primer mes',
   },
   {
-    name: 'Dr. Roberto Fuentes',
+    name: 'Diego Saráchaga',
     role: 'Director & Co-fundador',
-    clinic: 'Centro Odontológico Fuentes',
-    city: 'Santiago de Chile',
-    avatar: 'RF',
+    clinic: 'Saráchaga & Asociados',
+    city: 'Rosario',
+    avatar: 'DS',
     stars: 5,
     quote:
-      'El CRM a medida que KOSMO construyó para nosotros centraliza todo: historiales, pagos, seguimientos y comunicación con pacientes. Antes tardábamos horas en preparar reportes semanales; ahora los tenemos en tiempo real. El equipo de KOSMO entendió exactamente lo que nuestra clínica necesitaba.',
-    highlight: 'Reportes en tiempo real, antes tardábamos horas',
+      'Lo que más me sorprendió fue la calificación de leads. KOSMO detecta si el interesado es comprador, vendedor o inversor, qué zona le interesa y qué presupuesto tiene — todo antes de que mi equipo haga una sola llamada. Dejamos de perder tiempo y nos enfocamos en quienes realmente compran.',
+    highlight: '70% menos tiempo en gestión de consultas',
   },
 ]
 
@@ -63,11 +63,11 @@ export default function Testimonials() {
             Historias de éxito
           </p>
           <h2 className="text-4xl sm:text-5xl font-black text-white leading-tight mb-5">
-            Clínicas que ya{' '}
+            Inmobiliarias que ya{' '}
             <span className="text-gold-gradient">despegaron con KOSMO</span>
           </h2>
           <p className="text-white/45 text-lg max-w-xl mx-auto">
-            Directores y dueños que tomaron la decisión de transformar su clínica con inteligencia artificial.
+            Dueños y directores que tomaron la decisión de transformar su inmobiliaria con inteligencia artificial.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function Testimonials() {
                 <div>
                   <p className="text-white font-bold text-sm">{t.name}</p>
                   <p className="text-white/40 text-xs">{t.role}</p>
-                  <p className="text-gold-500/70 text-xs font-medium">{t.clinic} · {t.city}</p>
+                  <p className="text-gold-500/70 text-xs font-medium">{t.clinic} — {t.city}</p>
                 </div>
               </div>
             </div>
